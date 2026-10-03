@@ -1,0 +1,26 @@
+<Page x:Class="AeroBusinessApp.Pages.Client"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Страница клиента"
+      Background="White">
+
+    <Grid Margin="35">
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <Image Width="100"
+                   Height="100"
+                   Source="/AeroBusinessApp;component/Resources/logo.png"
+                   Margin="0,0,0,18"/>
+
+            <TextBlock Text="Страница клиента"
+                       FontSize="28"
+                       FontWeight="SemiBold"
+                       HorizontalAlignment="Center"/>
+
+            <TextBlock Text="Вход выполнен в гостевом режиме."
+                       FontSize="16"
+                       Margin="0,12,0,0"
+                       HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Page>
